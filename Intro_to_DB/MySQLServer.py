@@ -22,6 +22,3 @@ def create_database():
         if connection.is_connected():
             cursor.close()
             connection.close()
-
-if __name__ == "__main__":
-    create_database()
